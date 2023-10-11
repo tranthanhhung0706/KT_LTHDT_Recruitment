@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* Mặc định màu đen*/	
+/*Màu phông chữ mặc định của toàn bộ trang web*/
+a{color:#333}a:hover,a:focus,.maincolor,.maincolor a{color:#06c}
+.Hui-header{ color:#fff}/*Màu đầu*/
+	.Hui-logo,.Hui-logo-m,.Hui-subtitle,.Hui-userbar{color:#fff}/*logo Và thông tin người dùng màu văn bản*/
+	.Hui-logo:hover,.Hui-logo-m:hover{color:#fff;text-decoration: none}
+	
+.Hui-header{background-color:#222}/*Điều hướng hàng đầu*/
+#Hui-nav > ul > li > a{ color:#fff}/*Màu văn bản điều hướng hàng đầu*/
+#Hui-nav > ul > li > a:hover,#Hui-nav > ul > li.current > a{ color:#fff}/*Điều hướng trạng thái sáng cao*/
+.Hui-userbar > li > a{ color:#fff}
+.Hui-userbar > li > a:hover,.Hui-userbar > li.current > a{ color:#fff}/*Thanh thông tin người dùng nổi bật*/
+.Hui-aside{}/*Thanh bên*/
+	.Hui-aside .menu_dropdown dt{color:#333}/*Menu điều hướng hai -level ở bên trái*/
+	.Hui-aside .menu_dropdown dt:hover{color:#148cf1}
+	.Hui-aside .menu_dropdown dt:hover [class^="icon-"]{ color:#7e8795}
+	.Hui-aside .menu_dropdown li a{color:#666;border-bottom: 1px solid #e5e5e5}
+	.Hui-aside .menu_dropdown li a:hover{color:#148cf1;background-color:#fafafa}
+	.Hui-aside .menu_dropdown li.current a,.menu_dropdown li.current a:hover{color:#148cf1}
+	.Hui-aside .menu_dropdown dt .Hui-iconfont{ color:#a0a7b1}
+	.Hui-aside .menu_dropdown dt .menu_dropdown-arrow{ color:#b6b7b8}	
+	.dislpayArrow a{background:url(icon_arrow.png) no-repeat 0 0}
